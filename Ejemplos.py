@@ -73,9 +73,10 @@ def f(x):
     # return np.exp(-(x**2))
     return x**2
 
-area = regla_simpson13(f, -2, 2, 40)
+area = regla_simpson13(f, -2, 2, 2)
 
 print(area)
+
 
 
 
