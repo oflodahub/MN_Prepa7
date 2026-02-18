@@ -70,12 +70,12 @@ def regla_simpson13 (f,a,b,n):
 
 # funcion a integrar
 def f(x):
-    # return np.exp(-(x**2))
-    return x**2
+    return np.exp(-(x**2))
 
 area = regla_simpson13(f, -2, 2, 2)
 
 print(area)
+
 
 
 
